@@ -1,0 +1,29 @@
+import '../styles/globals.css';
+
+import Layout from '../components/Layout';
+import Transtion from '../components/Transition';
+
+/*router*/
+import {useRouter} from 'next/router';
+
+
+/* fromer marion */
+import { AnimatePresence ,motion} from 'framer-motion';
+
+function MyApp({ Component, pageProps }) {
+  const router=useRouter();
+  return (
+    <Layout>
+      <AnimatePresence mode='wait'>
+        <motion.div key={router.route} className='h-full'>
+          <Transtion />
+        <Component {...pageProps} />
+        </motion.div>
+    </AnimatePresence>
+    </Layout>
+  );
+}
+
+
+
+export default MyApp;
