@@ -1,6 +1,8 @@
-這是一個基於Next.js 與 TailwindCSS 與 framer_motion 參考往上架構實做的企業網站
+這是一個基於Next.js 與 TailwindCSS 與 framer_motion 並擁有RWD與動畫效果設計的企業網站 
 
-參考自 youtube影片 https://www.youtube.com/watch?v=qp0-L_M3Ad4&t=2110s
+架構參考自 youtuber-Cristian Mihai頻道之影片
+
+企業網站動態影片請前往 https://youtu.be/j6kSMG7jYI4
 
 ![image](https://github.com/7Huaa/Corporate-introduce-website/blob/master/web_home.PNG)
 
